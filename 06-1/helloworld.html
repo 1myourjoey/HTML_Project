@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="title">안녕</div>
+    <button onclick="clickButton()">클릭</button>
+
+    <script>
+        
+        function clickButton() {
+            console.log('버튼이 클릭되었다.');
+            const title = document.querySelector('#title');
+            // title.textContent='반가워요';
+            title.innerHTML='<h1>반가워요</h1>';
+            console.log(title);
+        }
+        
+    </script>
+</body>
+</html>

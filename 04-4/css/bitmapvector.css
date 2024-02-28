@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+img {
+	width:400px; margin:50px;
+}
+
+/* 비트맵, 벡터 이미지 확대하기
+img {
+	width:10000px; margin:50px;
+}
+*/
+
+
+
+article {
+	width: 500px; 
+	border: 1px solid #000;
+	box-sizing: border-box; 
+	padding: 50px;
+	margin: 50px auto;
+}
+article svg {
+	width: 100%;
+}
+
+/* path 속성 바꾸기 */
+article svg path {
+  fill: transparent; 
+  stroke: red;
+  stroke-width: 2
+  stroke-dasharray: 1420;
+  stroke-dashoffset: -1420;
+  transition : all 3s;
+}
