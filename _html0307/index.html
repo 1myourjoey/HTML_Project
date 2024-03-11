@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="btn" onclick="alert('click!')">click</button>
+    <button id="btn1" onclick="msg()">click.f</button>
+    <button id="btn2" >click.docu</button>
+    <button id="btn3" >click.easy</button>
+    
+
+
+    <script>
+      function msg() {
+          alert("click!");
+      }
+      document.getElementById("btn2").onclick = function() {
+        alert("click")
+      }
+      btn3.onclick = function() {
+        alert("click4");
+      }
+    </script>
+  </body>
+</html>
